@@ -1,0 +1,31 @@
+.comments {
+  padding: 1rem;
+}
+
+.comments--comment {
+  margin-bottom: 0.3rem;
+}
+
+.comments--comment span {
+  font-weight: bold;
+}
+
+.comments--add-comment {
+  margin: 0 1rem 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #ddd;
+}
+.comments--add-comment input {
+  font-size: 1rem;
+  width: 100%;
+  border: none;
+}
+
+.comments--add-comment input:focus {
+  outline: none;
+}
+
+.comments--add-comment input::placeholder {
+  color: #aaa;
+  font-weight: bold;
+}
